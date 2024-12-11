@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+}
+
+/*Navbar styling*/
+.navbar{
+    border-top: 1px solid #006834;
+    background-color: #fff !important;
+}
+
+.navbar a{
+    color: #006834;
+}
+
+.navbar a:hover{
+    color: #006834;
+}
+
+.nav_contact_info p{
+    margin: 0;
+}
+
+/*Navbar styling End*/
+
+.buttons{
+    margin-left: 1rem;
+}
+
+#website_logo{
+    margin-top: 1rem;
+    color: #006834;
+}
+
+#website_logo h2{
+    font-weight: bold;
+    /*font-size: 40px;*/
+
+}
+
+.banner{
+    height: 80vh;
+    padding: 0;
+}
+
+.banner_img{
+    position: relative;
+    height: 80vh; 
+    background-image: url('./img/pexels-olly-3768114.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    object-fit: cover; 
+}
+
+
+/*About us*/
+.about_us{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 4rem;
+}
+
+.about_us h2{
+    color: #006834;
+    font-weight: bold;
+}
+
+.about_us p{
+    color: #425466;
+    margin-top: 2rem;
+}
+
+.about_us img{
+    border-radius: 10px;
+}
+/*About Us End*/
+
+/*Paroxes*/
+.paroxes{
+    margin-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+.paroxes h2{
+    color: #006834;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.paroxes li::marker{
+    color: #94C122;
+}
+
+.paroxes img{
+    border-radius: 10px;
+}
+
+.paroxes h4{
+    color: #006834;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+/*Paroxes end*/
+
+/*Pricing section*/
+.pricing{
+    margin-top: 4rem;
+    background-color: #E4F1E9;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.pricing h2{
+    color: #006834;
+    font-weight: bold;
+}
+
+.pricing table{
+    margin-top: 2rem;
+}
+
+.pricing table, th, td{
+    border: 1px solid #006834;
+    border-collapse: collapse;
+}
+
+.pricing_notes{
+    font-size: 10px;
+}
+
+/*Pricing End*/
+
+.payment_methods h3{
+    margin-top: 0rem;
+    color: #006834;
+    font-weight: bold;
+}
+
+.price_card{
+    background-color: #fff;
+    margin-top: 1rem;
+    padding: 3rem;
+    border-radius: 20px;
+}
+
+.price_card p{
+    color: #006834;
+}
+
+.price_card li{
+    color: #006834;
+}
+
+.price_card li::marker{
+    color: #94C122;
+}
+
+.price_card h5{
+    margin-top: 2rem;
+    color: #006834;
+}
+
+.payment_methods{
+    margin-top: 4rem;
+}
+
+/*Bio File*/
+.bio{
+    padding-bottom: 14rem;
+    padding-top: 8rem;
+}
+
+.bio img{
+    border-radius: 10px;
+}
+
+.bio h2{
+    color: #006834;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.bio h4{
+    margin-top: 3rem;
+    color: #006834;
+}
+.bio li::marker{
+    color: #94C122;
+}
+
+/*Nav language buttons*/
+.btn_gr{
+    border: 1px solid #006834;
+    color: #006834;
+}
+
+.btn_gr:hover{
+    border: 1px solid #94C122;
+    color: #006834;
+}
+
+.btn_en{
+    border: 1px solid #006834;
+    color: #006834;
+}
+
+.btn_en:hover{
+    border: 1px solid #94C122;
+    color: #006834;
+}
+
+
+/*Hover Effect*/
+.nav-link {
+    position: relative;
+    text-decoration: none;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #94C122;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover::after {
+    transform: scaleX(1);
+}
+
+/*Footer section*/
+footer{
+    background-color: #006834;
+    color: #fff;
+    padding: 4rem;
+
+}
+
+.footer-info{
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
+}
+
+
+/*xrvma gia koympi*/
+.navbar-toggler {
+    border:1px solid #006834 ;
+}
+
+.navbar-toggler-icon{
+    background-image:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 104, 52, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler:link,
+.navbar-toggler:visited,
+.navbar-toggler:hover,
+.navbar-toggler:active,
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+
+/*md screen breakpoint*/
+@media (max-width: 768px){
+    .about_us{
+        margin-top: 2rem;
+        padding-top: 1rem;
+    }
+
+    .about_us p{
+        margin-bottom: 5rem;
+    }
+
+    .paroxes{
+        margin-top: 2rem;
+    }
+
+    .paroxes img{
+        margin-top: 2rem;
+    }
+
+    .bio{
+        padding-top: 2rem;
+    }
+
+    .bio_info{
+        padding-top: 2rem;
+        margin-top: 3rem;
+    }
+
+    .buttons{
+        margin-left: 0;
+    }
+
+}
+
+/*Mobile view*/
+@media (max-width: 576px) { 
+    .banner_img{
+        height: 60vh;
+    }
+
+    .about_us{
+        margin-top: 0rem;
+        padding-top: 1rem;
+    }
+
+    /*.about_us p{
+        margin-bottom: 5rem;
+    }*/
+
+    .paroxes{
+        margin-top: 1rem;
+    }
+
+    /*.paroxes img{
+        margin-top: 2rem;
+    }
+
+    .bio{
+        padding-top: 2rem;
+    }
+
+    .bio_info{
+        padding-top: 2rem;
+        margin-top: 3rem;
+    }*/
+    
+    
+ }
